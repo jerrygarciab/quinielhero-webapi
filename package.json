@@ -1,0 +1,29 @@
+{
+  "name": "quinielhero-webapi",
+  "version": "1.0.0",
+  "description": "Web api for the quinielhero application",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerrygarciab/quinielhero-webapi.git"
+  },
+  "author": "Jerry Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerrygarciab/quinielhero-webapi/issues"
+  },
+  "homepage": "https://github.com/jerrygarciab/quinielhero-webapi#readme",
+  "dependencies": {
+    "hapi": "^16.1.1",
+    "joi": "^10.4.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-nodemon": "^2.2.1"
+  }
+}
